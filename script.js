@@ -4,7 +4,7 @@ function verificar() {
     let n2 = parseFloat(window.prompt(`Segunda nota de ${aluno}:`).replace(',', '.'))
     var n = ((n1 + n2) / 2)
     res.innerHTML = `<h2>
-    <p>Analisando a situação de ${aluno}</p>
+    <p>Analisando a situação de ${aluno}...</p>
 </h2>`
     if (n > 6) {
         res.innerHTML += `<p>Com as notas ${n1.toLocaleString('pt-br',{maximumFractionDigits: 2})} e ${n2.toLocaleString('pt-br',{maximumFractionDigits: 2})} a <strong>média é ${n.toLocaleString('pt-br',{maximumFractionDigits: 2})}</strong>`
