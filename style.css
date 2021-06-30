@@ -1,0 +1,28 @@
+body {
+    font: 12pt Arial;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+}
+
+mark#cor1 {
+    background-color: rgba(0, 128, 0, 0.479);
+}
+
+mark#cor2 {
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+strong#cor1 {
+    color: green;
+}
+
+strong#cor2 {
+    color: orange;
+}
+
+strong#cor3 {
+    color: red;
+}
