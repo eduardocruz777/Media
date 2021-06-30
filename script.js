@@ -17,6 +17,6 @@ function verificar() {
         res.innerHTML += '<p>Com média abaixo de 3,0 o aluno está <mark id="cor2"><strong id="cor3">REPROVADO.</strong></mark></p>'
     } else {
         res.innerHTML = '<p>Clique no botão acima para informar as notas do aluno.</p>'
-        window.alert('Por favor digite um número válido')
+        window.alert('Não foi possível calcular a média. Por favor digite um número válido')
     }
 }
